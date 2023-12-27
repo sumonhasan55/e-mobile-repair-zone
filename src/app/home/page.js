@@ -1,9 +1,10 @@
+import Navbar from '@/components/Navbar';
 import React from 'react';
 
 const HomePage = () => {
     return (
         <div>
-            <h2>Best services</h2>
+            <Navbar/>
             
         </div>
     );
