@@ -6,6 +6,8 @@ import React from 'react';
 import AboutPage from '../aboutus/page';
 import WhyusPage from '../whyus/page';
 import GalleryPage from '../gallery/page';
+import ContactcUsPage from '../contuctus/page';
+import VideoPage from '../videos/page';
 
 const HomePage = () => {
     return (
@@ -16,6 +18,8 @@ const HomePage = () => {
             <AboutPage/>
            <WhyusPage/>
            <GalleryPage/>
+           <VideoPage/>
+           <ContactcUsPage/>
             <Footer/>
             
         </div>
