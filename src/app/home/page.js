@@ -11,7 +11,7 @@ import VideoPage from '../videos/page';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className=''>
             <Navbar/>
             <Carousel/>
             <Services/>

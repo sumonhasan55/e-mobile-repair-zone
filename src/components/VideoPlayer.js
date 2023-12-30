@@ -7,8 +7,8 @@ const VideoPlayer = ({ videoUrl }) => {
     <div className=' rounded-3xl'>
       <iframe
         
-        width="560"
-        height="315"
+        width="380"
+        height="305"
         src={`https://www.youtube.com/embed/${videoUrl}`}
         title="YouTube video player"
         frameBorder="0"
