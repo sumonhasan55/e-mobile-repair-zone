@@ -1,4 +1,5 @@
-
+/* eslint-disable react/react-in-jsx-scope */
+import React from 'react';
 import MapComponent from '@/components/MapComponent';
 import ContactUs from '@/components/ContactUs';
 

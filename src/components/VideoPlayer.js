@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
 'use client' 
-/// VideoPlayer.js
 import React from 'react';
-
 const VideoPlayer = ({ videoUrl }) => {
   return (
     <div className=' rounded-3xl'>

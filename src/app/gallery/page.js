@@ -1,5 +1,6 @@
+/* eslint-disable react/react-in-jsx-scope */
+import React from 'react';
 import Image from "next/image";
-
 import GalleryPic1 from "../../../public/gallery (1).jpg"
 import GalleryPic2 from "../../../public/gallery (2).jpg"
 import GalleryPic3 from "../../../public/gallery (3).jpg"
