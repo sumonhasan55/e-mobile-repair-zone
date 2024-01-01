@@ -15,12 +15,12 @@ const Navbar = () => {
                             <li><a>Home</a></li>
                             <li><a>Aboutus</a></li>
                             <li>
-                                <a>Services</a>
+                                <Link href={"/services"}>Services</Link>
                                 <ul className="p-2">
-                                <ul className="p-2">
-                                    <li><a>Mobile Repair </a></li>
-                                    <li><a>Mobile Accesorise</a></li>
-                                </ul>
+                                    <ul className="p-2">
+                                        <li><a>Mobile Repair </a></li>
+                                        <li><a>Mobile Accesorise</a></li>
+                                    </ul>
                                 </ul>
                             </li>
                             <li><a>Contactus</a></li>
@@ -30,23 +30,19 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-bold">
-                    <li>
-                            <details>
-                                <summary>Services</summary>
-                                <ul className="p-2">
-                                    <li><a>Mobile Repair </a></li>
-                                    <li><a>Mobile Accesorise</a></li>
-                                </ul>
-                            </details>
+                        <li>
+
+                            <Link href={"/services"}>Services</Link>
+
                         </li>
                         <li><a>Aboutus</a></li>
-                       
+
                         <li><a>Contactus</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
                     <Link href="/login" className="btn bg-primary text-white hover:text-black">Login</Link>
-                    
+
                 </div>
             </div>
 

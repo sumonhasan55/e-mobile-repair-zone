@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import VideoPlayer from "@/components/VideoPlayer";
 
 const VideoPage = () => {

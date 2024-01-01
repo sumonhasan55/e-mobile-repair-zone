@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 'use client' 
 /// VideoPlayer.js
 import React from 'react';

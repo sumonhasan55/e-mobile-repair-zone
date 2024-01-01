@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 
 import Image from "next/image";
 import CarouselImage1 from "./../../public/carrossel (1).png"

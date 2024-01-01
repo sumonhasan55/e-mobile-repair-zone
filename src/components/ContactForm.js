@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 'use client' 
 import { useForm } from "react-hook-form"
 
