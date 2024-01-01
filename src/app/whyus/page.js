@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMicrochip, faMoneyCheck, faCalendar, faPersonBiking } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@font-awesome/react-font-awesome';
+import { faMicrochip, faMoneyCheck, faCalendar, faPersonBiking } from '@font-awesome/free-solid-svg-icons';
 
 
 const WhyusPage = () => {
