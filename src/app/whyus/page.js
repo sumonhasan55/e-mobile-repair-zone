@@ -1,6 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { FontAwesomeIcon } from '@font-awesome/react-font-awesome';
-import { faMicrochip, faMoneyCheck, faCalendar, faPersonBiking } from '@font-awesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+import { faMicrochip, faMoneyCheck, faCalendar, faPersonBiking } from '@fortawesome/free-solid-svg-icons';
 
 
 const WhyusPage = () => {
@@ -15,7 +18,7 @@ const WhyusPage = () => {
                             <FontAwesomeIcon width={92} height={82} icon={faCalendar} />
                         </div>
                         <h2 className="card-title ">24/7 Support Availability!</h2>
-                        <p>We feel proud to say that we are always availavel to Support you via Phone,Email and in store for any queries.</p>
+                        <p>We feel proud to say that we are always available to Support you via Phone,Email and in store for any queries.</p>
 
                     </div>
                 </div>
@@ -25,7 +28,7 @@ const WhyusPage = () => {
                             <FontAwesomeIcon width={92} height={82} icon={faMoneyCheck} />
                         </div>
                         <h2 className="card-title ">Money Back Guarantee!</h2>
-                        <p>As per our terms if the repair dosen't work,we offer full money back within the guaranteed period specified.</p>
+                        <p>As per our terms if the repair doesn't work,we offer full money back within the guaranteed period specified.</p>
 
                     </div>
                 </div>
@@ -35,7 +38,7 @@ const WhyusPage = () => {
                             <FontAwesomeIcon width={92} height={82} icon={faMicrochip} />
                         </div>
                         <h2 className="card-title ">Genuine Hardware!</h2>
-                        <p>Our First priority is to use 100% Genuine spares,if not availavel will be replesed with best posible options only with your approval.</p>
+                        <p>Our First priority is to use 100% Genuine spares,if not available will be replesed with best posible options only with your approval.</p>
 
                     </div>
                 </div>
@@ -45,7 +48,7 @@ const WhyusPage = () => {
                             <FontAwesomeIcon width={92} height={82} icon={faPersonBiking} />
                         </div>
                         <h2 className="card-title ">Pickup & Drop Facility!</h2>
-                        <p>We also get damaged or faulty mobile devices pickedup from your residence to easy the process for our customers.</p>
+                        <p>We also get damaged or faulty mobile devices pickup from your residence to easy the process for our customers.</p>
 
                     </div>
                 </div>
