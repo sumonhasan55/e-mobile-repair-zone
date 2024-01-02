@@ -1,11 +1,11 @@
 import React from 'react';
 import Carousel from '@/components/Carousel';
-import AboutPage from '../aboutus/page';
 import WhyusPage from '../whyus/page';
 import GalleryPage from '../gallery/page';
-import ContactcUsPage from '../contuctus/page';
 import VideoPage from '../videos/page';
 import Services from '../services/page';
+import ContactUsPage from '../contuctus/contact';
+import AboutPage from '../aboutus/about';
 
 const HomePage = () => {
     return (
@@ -13,11 +13,12 @@ const HomePage = () => {
 
             <Carousel />
             <Services />
-            <AboutPage />
+           <AboutPage/>
             <WhyusPage />
             <GalleryPage />
             <VideoPage />
-            <ContactcUsPage />
+            <ContactUsPage/>
+        
 
 
         </div>
