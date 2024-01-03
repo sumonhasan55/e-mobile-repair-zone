@@ -14,7 +14,7 @@ const Navbar = () => {
                             <li><a>Home</a></li>
                             <li><a>Aboutus</a></li>
                             <li>
-                                <Link href={"/services"}>Services</Link>
+                                <Link href={"/allservices"}>Services</Link>
                                 <ul className="p-2">
                                     <ul className="p-2">
                                         <li><a>Mobile Repair </a></li>
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1 font-bold">
                         <li>
 
-                            <Link href={"/services"}>Services</Link>
+                            <Link href={"/allservices"}>Services</Link>
 
                         </li>
                         <li><a>Aboutus</a></li>
