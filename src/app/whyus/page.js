@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable react/react-in-jsx-scope */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrochip, faMoneyCheck, faCalendar, faPersonBiking } from '@fortawesome/free-solid-svg-icons';
 

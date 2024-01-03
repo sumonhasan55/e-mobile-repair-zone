@@ -1,6 +1,6 @@
-/* eslint-disable react/prop-types */
-// pages/services/[serviceName].js
+
 import Layout from '@/components/Layout';
+import Link from 'next/link';
 import React from 'react';
 
 
@@ -18,7 +18,9 @@ const ServiceDetail = ({ service }) => {
             <div>
               <h1 className="text-5xl font-bold">{service?.name}</h1>
               <p className="py-6">{service.description}</p>
+              <Link href={"/cart"}>
               <button className="btn btn-primary">Add to Cart</button>
+              </Link>
             </div>
           </div>
         </div>

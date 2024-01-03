@@ -1,11 +1,7 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/react-in-jsx-scope */
-/* eslint-disable react/prop-types */
-// components/Layout.js
-
 import { Inter } from "next/font/google";
 import Navbar from "./Navbar";
 import '../app/globals.css'
+import Footer from "./Footer";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +11,7 @@ const Layout = ({ children }) => {
     <div>
       <Navbar />
       <main className={inter.className}>{children}</main>
-      {/* Add any other common components or layout elements here */}
+      <Footer/>
     </div>
   );
 };
